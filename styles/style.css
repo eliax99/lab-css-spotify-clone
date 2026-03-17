@@ -1,8 +1,32 @@
-/*
-Colors:
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  margin-left: auto;
+}
 
-*/
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.spotify-logo {
+  height: 40px; 
+  width: auto;  
+}
+
+.hero{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
